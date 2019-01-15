@@ -1,0 +1,307 @@
+/* 
+Theme Name: my-theme
+Theme Uri: www.miweb.com
+Description: descripcion del tema
+Version: 1
+Author: Lorena
+Author URL: direccion web del autor
+*/
+
+/*Estilos Alineacion de Post*/
+.center {text-align: center;}
+img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+img.alignleft, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}
+.alignright {float: right;}
+img.alignright, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;height:0px;}
+
+#articles_list article p {
+	margin-bottom:15px;
+}
+
+/* Estilos Generales */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #191919;
+	font-size: 12pt;
+	font-family: "open sans", Arial, Helvetica, sans-serif;
+}
+
+header, #main, footer {
+	width: 85%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+a {
+	color: #E79BAA;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #550011;
+}
+
+h2 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: left;
+}
+/* Header */
+
+header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 85%;
+	background-color: #9E354A;
+}
+
+header #logo {
+	width: 40%;
+	float: left;
+	color: #550011;
+}
+
+header #logo p {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 100;
+	text-align: left;
+}
+
+header #logo span {
+	text-align: center;
+	width: 100%;
+	display: block;
+	position: relative;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	right: 20px;
+	margin-bottom: 10px;
+}
+
+header nav {
+	width: 60%;
+	float: right;
+	padding: 10px 0;
+	margin-top: 30px;
+}
+
+header nav ul {
+	float: right;
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+header nav ul li a {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+}
+
+/* Main */
+
+#main {
+	overflow: hidden;
+}
+
+/* Slideshow */
+
+#main #slideshow {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#main #slideshow img {
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+}
+
+#main #slideshow article {
+	float: left;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	width: 49%;
+	color: #fff;
+}
+
+#main #slideshow article .date {
+	font-family: 'Raleway', Helvetica, arial, sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: #B579A8;
+	display: inline-block;
+}
+
+#main #slideshow article .post-categories {
+	font-family: 'Raleway', Helvetica, arial, sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	display: inline-block;
+	list-style: none;
+	padding-left: 6px;
+}
+
+#main #slideshow .slidesjs-pagination li {
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#main #slideshow .slidesjs-pagination li a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	font-size: 0px;
+}
+
+#main #slideshow .slidesjs-pagination li .active {
+	background-color: #984C87;
+}
+
+
+/* MAIN */
+
+#main #articles-list {
+	clear: both;
+	width: 75%;
+	float: left;
+}
+
+#main #articles-list article {
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #984C87;
+	overflow: hidden;
+}
+
+#main #articles-list article img {
+	width: 35%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+#main #articles-list article .extract {
+	text-align: justify;
+	color: #fff;
+}
+
+#main #articles-list article .date {
+	font-size: 0.8rem;
+	color: #B579A8;
+	margin-bottom: 10px;
+}
+
+#main #articles-list article .date ul {
+	display: inline-block;
+	list-style: none;
+	padding-left: 3px;
+}
+
+#main #articles-list #pagination {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#main #articles-list #pagination p {
+	text-align: center;
+}
+
+#main #articles-list #pagination p a {
+	margin: 0 20px;
+	font-size: 1.5rem;
+	font-family: 'Raleway', Helvetica, arial, sans-serif;
+	font-weight: 300;
+	display: inline-block;
+}
+
+/* Aside */
+
+#main aside {
+	width: 25%;
+	float: left;
+}
+
+#main .widget {
+	width: 100%;
+}
+
+.widget {
+	margin-bottom: 50px;
+	display: block;
+	float: left;
+}
+
+.widget h3 {
+	font-size: 1.4rem;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #984C87;
+	margin-bottom: 10px;
+}
+
+.widget ul li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.widget ul li a {
+	font-size: 0.9rem;
+}
+
+.widget ul li a:hover {
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	width: 85%;
+}
+
+footer .widget {
+	width: 25%;
+}
+
+footer #copyright {
+	width: 85%;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	color: #B579A8;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+/* Blog */
+
+#main #articles-list #cat_name {
+	color: #B579A8;
+	font-weight: 500;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #984C87;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}
+
+/*QUEDE EN EL VIDEO 14*/
